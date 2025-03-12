@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Code Clone from GitHub") {
             steps {
-                git url: "https://github.com/LondheShubham153/node-todo-cicd", branch: "master"
+                git url: "https://github.com/krishnaacharyaa/wanderlust", branch: "devops"
             }
         }
         stage("SonarQube Quality Analysis") {
